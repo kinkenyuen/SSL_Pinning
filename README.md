@@ -70,7 +70,7 @@ SSL Pinning(SSL固定，简称固定)是将主机与其证书或公钥关联起�
    <img src="./imgs/SSLPinning获取证书.jpg" width="50%" height="50%">
    </div>
 
-2. 将证书命名为"www.apple.com.der"，然后放到应用程序的bundle内
+2. 将证书命名为www.apple.com.der ，然后放到应用程序的bundle内
 
 3. 接下来使用URLSeesion访问www.apple.com
 
