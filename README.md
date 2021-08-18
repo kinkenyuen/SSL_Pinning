@@ -193,11 +193,11 @@ SSL Pinning(SSL固定，简称固定)是将主机与其证书或公钥关联起�
    -----END PUBLIC KEY-----
    ```
 
-   上面的**-----BEGIN PUBLIC KEY-----**和**-----END PUBLIC KEY-----**之间的内容就是苹果证书的公钥
+   上面的 **-----BEGIN PUBLIC KEY-----** 和 **-----END PUBLIC KEY-----** 之间的内容就是苹果证书的内容
 
 2. 生成hashkey
 
-   可以通过该网站https://www.ssllabs.com/ssltest/查询，或者使用openssl命令
+   可以通过该网站 https://www.ssllabs.com/ssltest/ 查询，或者使用openssl命令
 
    ```shell
    openssl s_client -servername www.apple.com -connect www.apple.com:443 | openssl x509 -pubkey -noout | openssl pkey -pubin -outform der | openssl dgst -sha256 -binary | openssl enc -base64
