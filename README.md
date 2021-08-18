@@ -14,7 +14,7 @@ SSL Pinning(SSL固定，简称固定)是将主机与其证书或公钥关联起�
 
 # 证书是什么? 它包含哪些其他信息？
 
-证书是一个文件，它封装了关于拥有该证书的服务器的信息。它类似于身份证。证书结构采用**X.509**标准。**X.509**是由**国际电信联盟**的标准化部门定义的。证书由**证书颁发机构(CA)**颁发，也可以是自签名的
+证书是一个文件，它封装了关于拥有该证书的服务器的信息。它类似于身份证。证书结构采用**X.509**标准。**X.509**是由**国际电信联盟**的标准化部门定义的。证书由证书颁发机构(CA)颁发，也可以是自签名的
 
 证书包含许多信息：
 
@@ -31,8 +31,8 @@ SSL Pinning(SSL固定，简称固定)是将主机与其证书或公钥关联起�
 
 数字证书(X.509)有几种常用的文件名扩展名：
 
-* **PEM(Privacy Enhanced Mail)**：Base64编码，文件扩展名为**.pem**，证书信息包含在"**BEGIN CERTIFICATE**"和"**end certificate**"之间
-* **PKCS(Public-key cryptography standards)**：公钥加密标准，用于在单个文件中交换公共和私有对象。它的扩展名有**.p7b**，**.p7c**，**.p12**等等
+* **PEM(Privacy Enhanced Mail)**：Base64编码，文件扩展名为.pem，证书信息包含在"**BEGIN CERTIFICATE**"和"**end certificate**"之间
+* **PKCS(Public-key cryptography standards)**：公钥加密标准，用于在单个文件中交换公共和私有对象。它的扩展名有 **.p7b**，**.p7c**，**.p12**等等
 * **DER(Distinguished Encoding Rules)**：二进制编码，文件扩展名为**.cer**，**.der**和**.crt**
 
 ---
