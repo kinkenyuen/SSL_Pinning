@@ -33,7 +33,7 @@ SSL Pinning(SSL固定，简称固定)是将主机与其证书或公钥关联起�
 
 * **PEM(Privacy Enhanced Mail)**：Base64编码，文件扩展名为.pem，证书信息包含在"**BEGIN CERTIFICATE**"和"**end certificate**"之间
 * **PKCS(Public-key cryptography standards)**：公钥加密标准，用于在单个文件中交换公共和私有对象。它的扩展名有 **.p7b**，**.p7c**，**.p12**等等
-* **DER(Distinguished Encoding Rules)**：二进制编码，文件扩展名为**.cer**，**.der**和**.crt**
+* **DER(Distinguished Encoding Rules)**：二进制编码，文件扩展名为 **.cer**，**.der**和 **.crt**
 
 ---
 
